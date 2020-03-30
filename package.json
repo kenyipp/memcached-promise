@@ -26,5 +26,16 @@
 		"bluebird"
 	],
 	"author": "ken.yip",
-	"license": "ISC"
+	"license": "MIT",
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kenyipp/memcached-promise.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kenyipp/memcached-promise/issues"
+	},
+	"homepage": "https://github.com/kenyipp/memcached-promise#readme"
 }
