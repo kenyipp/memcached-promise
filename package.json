@@ -1,0 +1,30 @@
+{
+	"name": "memcached-promise",
+	"version": "1.0.1",
+	"description": "A fully featured Memcached client 'memcached' with Promise support. Powered by Bluebird.",
+	"main": "index.js",
+	"dependencies": {
+		"bluebird": "^3.7.2"
+	},
+	"devDependencies": {},
+	"scripts": {},
+	"peerDependencies": {
+		"memcached": "^2.2.2"
+	},
+	"keywords": [
+		"InnoDB memcached API",
+		"cache",
+		"client",
+		"cluster",
+		"failover",
+		"hashing",
+		"membase",
+		"memcache",
+		"memcached",
+		"nMemcached",
+		"nosql",
+		"bluebird"
+	],
+	"author": "ken.yip",
+	"license": "ISC"
+}
