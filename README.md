@@ -14,21 +14,21 @@ Same as request-promise, `memcached` is defined as a peer-dependency and thus ha
 const Memcached = require("memcached-promise");
 
 const memcached = new Memcached(
-	"localhost:11211",
-	{ 
-		maxExpiration: 2592000, 
-		namespace: "test", 
-		debug: false 
-	}
+  "localhost:11211",
+  { 
+    maxExpiration: 2592000, 
+    namespace: "test", 
+    debug: false 
+  }
 );
 
 void async function main() {
-	try {
-		await memcached.set("hello", { foo: "bar"});
-		console.log(await memcached.get("hello"));
-	} catch (error) {
-		console.error(error);
-	}
+  try {
+    await memcached.set("hello", { foo: "bar"});
+    console.log(await memcached.get("hello"));
+  } catch (error) {
+    console.error(error);
+  }
 }()
 ```
 
